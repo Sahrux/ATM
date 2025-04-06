@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+    ServerName sahrux.site
+    DocumentRoot /domains/sahrux.site/public_html/public
+
+    <Directory /domains/sahrux.site/public_html/public>
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
